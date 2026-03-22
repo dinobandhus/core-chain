@@ -154,7 +154,7 @@ var (
 
 	CoreChainConfig = &ChainConfig{
 		ChainID:             big.NewInt(2026),
-		RPCURL: "http://localhost:8545",
+		RPCURL: "https://tata-service-chain--dinobandhu8158.replit.app",
     ExplorerURL: "https://chain-explorer--surjothokdar044.replit.app",
 		
 		HomesteadBlock:      big.NewInt(0),

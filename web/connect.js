@@ -15,7 +15,7 @@ async function addNetwork() {
                                                                               symbol: 'TATA',
                                                                                         decimals: 18
                                                                                                 },
-                                                                                                        rpcUrls: ['http://localhost:8545']
+                                                                                                        rpcUrls: ['https://tata-service-chain--dinobandhu8158.replit.app']
                                                                                                               }]
                                                                                                                   });
 
