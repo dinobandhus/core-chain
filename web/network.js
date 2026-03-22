@@ -1,6 +1,6 @@
 export const network = {
       name: "Tata Service",
         symbol: "TATA",
-          rpc: "https://tata-service-chain--dinobandhu8158.replit.app",
+          rpc: "http://127.0.0.1:8545",
             chainId: 2026
             };
