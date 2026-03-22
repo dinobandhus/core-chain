@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tata Service</title>
+  </head>
+  <body>
+
+  <button onclick="addNetwork()">Add Tata Network</button>
+<button onclick="connectWallet()">Connect Wallet</button>
+<p><b>Address:</b> <span id="address">Not connected</span></p>
+<p><b>Balance:</b> <span id="balance">0</span></p>
+
+<script src="./connect.js"></script>
+<script src="./app.js"></script>
+  <script>
+  async function addNetwork() {
+    await window.ethereum.request({
+        method: 'wallet_addEthereumChain',
+            params: [{
+                  chainId: '0x7EA',
+                        chainName: 'Tata Service',
+                              nativeCurrency: {
+                                      name: 'Tata Service',
+                                              symbol: 'TATA',
+                                                      decimals: 18
+                                                            },
+                                                                  rpcUrls: ['http://localhost:8545']
+                                                                      }]
+                                                                        });
+                                                                        }
+                                                                        </script>
+
+                                                                        </body>
+                                                                        </html>
