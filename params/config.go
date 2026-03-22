@@ -151,7 +151,50 @@ var (
 			Epoch:  30000,
 		},
 	}
-
+TataServiceChainConfig = &ChainConfig{
+		ChainID:             big.NewInt(2026),
+		RPCURL: "https://tata-service-chain--dinobandhu8158.replit.app",
+    ExplorerURL: "https://chain-explorer--surjothokdar044.replit.app",
+		
+		HomesteadBlock:      big.NewInt(0),
+		EIP150Block:         big.NewInt(0),
+		EIP155Block:         big.NewInt(0),
+		EIP158Block:         big.NewInt(0),
+		ByzantiumBlock:      big.NewInt(0),
+		ConstantinopleBlock: big.NewInt(0),
+		PetersburgBlock:     big.NewInt(0),
+		IstanbulBlock:       big.NewInt(0),
+		MuirGlacierBlock:    big.NewInt(0),
+		HashPowerBlock:      big.NewInt(0),
+		ZeusBlock:           big.NewInt(0),
+		HeraBlock:           big.NewInt(0),
+		PoseidonBlock:       big.NewInt(0),
+		BerlinBlock:         big.NewInt(19_537_200),
+		LondonBlock:         big.NewInt(19_537_200),
+		HertzBlock:          big.NewInt(19_537_200),
+		ShanghaiTime:        newUint64(0), // 2024-11-19 7:00:00 AM UTC
+		KeplerTime:          newUint64(1731999600),
+		DemeterTime:         newUint64(1731999600),
+		AthenaTime:          newUint64(1738544400), // 2025-02-03 1:00:00 AM UTC
+		TheseusTime:         newUint64(1750838400), // 2025-06-25 8:00:00 AM UTC
+		CancunTime:          newUint64(0), // 2025-06-25 8:00:00 AM UTC
+		TheseusFixTime:      newUint64(1753948800), // 2025-07-31 08:00:00 AM UTC
+		LubanTime:           newUint64(1764057600),
+		PlatoTime:           newUint64(1764057600),
+		BohrTime:            newUint64(1764057600),
+		PascalTime:          newUint64(1764057600),
+		PragueTime:          newUint64(1764057600),
+		HermesTime:          newUint64(1764057600), // 2025-11-25 08:00:00 AM UTC
+		Satoshi: &SatoshiConfig{
+			Period: 5,
+			Epoch:  300,
+			Round:  86400,
+		},
+		BlobScheduleConfig: &BlobScheduleConfig{
+			Cancun: DefaultCancunBlobConfig,
+			Prague: DefaultPragueBlobConfig,
+		},
+}
 	CoreChainConfig = &ChainConfig{
 		ChainID:             big.NewInt(2026),
 		RPCURL: "https://tata-service-chain--dinobandhu8158.replit.app",
