@@ -16,7 +16,7 @@ async function addNetwork() {
           symbol: "TATA",
           decimals: 18
         },
-        rpcUrls: ["http://127.0.0.1:8545"],
+        rpcUrls: ["https://tataservice.imi.lat: 3306"],
         blockExplorerUrls: []
       }]
     });
