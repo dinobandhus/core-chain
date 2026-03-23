@@ -153,7 +153,7 @@ var (
 	}
 TataServiceChainConfig = &ChainConfig{
 		ChainID:             big.NewInt(2026),
-		RPCURL: "https://tataservice.imi.lat: 3306",
+		RPCURL: "https://tataservice.imi.lat:3306",
     ExplorerURL: "https://chain-explorer--surjothokdar044.replit.app",
 		
 		HomesteadBlock:      big.NewInt(0),
@@ -197,7 +197,7 @@ TataServiceChainConfig = &ChainConfig{
 }
 	CoreChainConfig = &ChainConfig{
 		ChainID:             big.NewInt(2025),
-		RPCURL: "https://tataservice.imi.lat: 3306",
+		RPCURL: "https://tataservice.imi.lat:3306",
     ExplorerURL: "https://chain-explorer--surjothokdar044.replit.app",
 		
 		HomesteadBlock:      big.NewInt(0),
