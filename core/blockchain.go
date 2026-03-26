@@ -16,7 +16,21 @@
 
 // Package core implements the Ethereum consensus protocol.
 package core
+var blockHeight = 1
 
+func GetBlockHeight() int {
+	return blockHeight
+}
+
+func GetBalance(address string) int {
+	return 1000 // demo balance
+}
+
+
+import (
+  "github.com/ethereum/go-ethereum/core"
+  "github.com/ethereum/go-ethereum/core/vm"
+)
 import (
 	"errors"
 	"fmt"
