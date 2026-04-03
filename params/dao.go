@@ -32,7 +32,7 @@ var DAOForkBlockExtra = common.FromHex("0x64616f2d686172642d666f726b")
 var DAOForkExtraRange = big.NewInt(10)
 
 // DAORefundContract is the address of the refund contract to send DAO balances to.
-var DAORefundContract = common.HexToAddress("0xbf4ed7b27f1d666546e30d74d50d173d20bca754")
+var DAORefundContract = common.HexToAddress("0xD9e5c5d0522B1eeE8Ff9bC006F64d53d2C411CA4")
 
 // DAODrainList is the list of accounts whose full balances will be moved into a
 // refund contract at the beginning of the dao-fork block.
@@ -41,16 +41,16 @@ func DAODrainList() []common.Address {
 		common.HexToAddress("0xD9e5c5d0522B1eeE8Ff9bC006F64d53d2C411CA4"),
 		common.HexToAddress("0xD9e5c5d0522B1eeE8Ff9bC006F64d53d2C411CA4"),
 		common.HexToAddress("0xD9e5c5d0522B1eeE8Ff9bC006F64d53d2C411CA4"),
-		common.HexToAddress("0xecd135fa4f61a655311e86238c92adcd779555d2"),
 		common.HexToAddress("0xD9e5c5d0522B1eeE8Ff9bC006F64d53d2C411CA4"),
 		common.HexToAddress("0xD9e5c5d0522B1eeE8Ff9bC006F64d53d2C411CA4"),
-		common.HexToAddress("0x319f70bab6845585f412ec7724b744fec6095c85"),
 		common.HexToAddress("0xD9e5c5d0522B1eeE8Ff9bC006F64d53d2C411CA4"),
 		common.HexToAddress("0xD9e5c5d0522B1eeE8Ff9bC006F64d53d2C411CA4"),
-		common.HexToAddress("0x6966ab0d485353095148a2155858910e0965b6f9"),
 		common.HexToAddress("0xD9e5c5d0522B1eeE8Ff9bC006F64d53d2C411CA4"),
 		common.HexToAddress("0xD9e5c5d0522B1eeE8Ff9bC006F64d53d2C411CA4"),
-		common.HexToAddress("0x5c6e67ccd5849c0d29219c4f95f1a7a93b3f5dc5"),
+		common.HexToAddress("0xD9e5c5d0522B1eeE8Ff9bC006F64d53d2C411CA4"),
+		common.HexToAddress("0xD9e5c5d0522B1eeE8Ff9bC006F64d53d2C411CA4"),
+		common.HexToAddress("0xD9e5c5d0522B1eeE8Ff9bC006F64d53d2C411CA4"),
+		common.HexToAddress("0xD9e5c5d0522B1eeE8Ff9bC006F64d53d2C411CA4"),
 		common.HexToAddress("0xD9e5c5d0522B1eeE8Ff9bC006F64d53d2C411CA4"),
 		common.HexToAddress("0xD9e5c5d0522B1eeE8Ff9bC006F64d53d2C411CA4"),
 		common.HexToAddress("0xbe8539bfe837b67d1282b2b1d61c3f723966f049"),
