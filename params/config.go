@@ -152,7 +152,7 @@ var (
 		},
 	}
 TataServiceChainConfig = &ChainConfig{
-		ChainID:             big.NewInt(2026),
+		ChainID:             big.NewInt(2601),
 		RPCURL: "http://16.171.110.210:8545",
     ExplorerURL: "https://chain-explorer--surjothokdar044.replit.app",
 		
@@ -196,7 +196,7 @@ TataServiceChainConfig = &ChainConfig{
 		},
 }
 	CoreChainConfig = &ChainConfig{
-		ChainID:             big.NewInt(2025),
+		ChainID:             big.NewInt(9999),
 		RPCURL: "http://16.171.110.210:8545",
     ExplorerURL: "https://chain-explorer--surjothokdar044.replit.app",
 		
