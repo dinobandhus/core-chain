@@ -87,7 +87,7 @@ func handler(w http.ResponseWriter, r *http.Request) {
 		result = chainID
 
 	case "net_version":
-		result = "2026"
+		result = "2601"
 
 	case "eth_blockNumber":
 		height := core.GetBlockHeight()
