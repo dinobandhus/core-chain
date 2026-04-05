@@ -73,7 +73,7 @@ type RPCResponse struct {
 	Result  interface{} `json:"result"`
 }
 
-const chainID = "0x7ea"
+const chainID = "0xA29"
 
 func handler(w http.ResponseWriter, r *http.Request) {
 	var req RPCRequest
