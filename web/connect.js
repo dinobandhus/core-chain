@@ -9,7 +9,7 @@ async function addNetwork() {
     await window.ethereum.request({
       method: "wallet_addEthereumChain",
       params: [{
-        chainId: "0x7EA", // 2026 in HEX
+        chainId: "0xA29", // 2601 in HEX
         chainName: "Tata Service",
         nativeCurrency: {
           name: "Tata Service",
